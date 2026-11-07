@@ -24,25 +24,27 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 font-mono ${
         scrolled
-          ? "bg-background/80 backdrop-blur-md border-b border-border shadow-sm"
+          ? "bg-background/85 backdrop-blur-md border-b border-border"
           : "bg-transparent"
       }`}
     >
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#home" className="font-bold text-lg tracking-tight">
-          <span className="text-primary">rizky</span>
-          <span className="text-muted-foreground">.dev</span>
+          <span className="text-muted-foreground">~/</span>
+          <span className="text-accent">rizky</span>
+          <span className="text-muted-foreground">$</span>
         </a>
 
-        <div className="hidden md:flex items-center gap-6">
-          {links.map((l) => (
+        <div className="hidden md:flex items-center gap-7">
+          {links.map((l, i) => (
             <a
               key={l.id}
               href={`#${l.id}`}
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm text-muted-foreground hover:text-accent transition-colors"
             >
+              <span className="text-accent/70">0{i + 1}.</span>{" "}
               {t.nav[l.key]}
             </a>
           ))}
@@ -51,14 +53,14 @@ export function Navbar() {
         <div className="flex items-center gap-2">
           <button
             onClick={toggleLang}
-            className="px-2.5 py-1.5 rounded-lg border border-border text-sm font-semibold hover:bg-muted transition-colors"
+            className="px-2.5 py-1.5 rounded-lg border border-border text-xs font-semibold hover:border-accent hover:text-accent transition-colors"
             aria-label="Switch language"
           >
             {lang === "id" ? "EN" : "ID"}
           </button>
           <button
             onClick={toggleTheme}
-            className="p-2 rounded-lg border border-border hover:bg-muted transition-colors"
+            className="p-2 rounded-lg border border-border hover:border-accent hover:text-accent transition-colors"
             aria-label="Toggle theme"
           >
             {theme === "light" ? "🌙" : "☀️"}
@@ -86,15 +88,15 @@ export function Navbar() {
       </nav>
 
       {open && (
-        <div className="md:hidden bg-background/95 backdrop-blur-md border-b border-border px-6 py-4 flex flex-col gap-3">
-          {links.map((l) => (
+        <div className="md:hidden bg-background/95 backdrop-blur-md border-b border-border px-6 py-4 flex flex-col gap-3 font-mono">
+          {links.map((l, i) => (
             <a
               key={l.id}
               href={`#${l.id}`}
               onClick={() => setOpen(false)}
-              className="text-sm font-medium text-muted-foreground hover:text-foreground"
+              className="text-sm text-muted-foreground hover:text-accent"
             >
-              {t.nav[l.key]}
+              <span className="text-accent/70">0{i + 1}.</span> {t.nav[l.key]}
             </a>
           ))}
         </div>

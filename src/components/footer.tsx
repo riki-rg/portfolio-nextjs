@@ -12,9 +12,17 @@ export function Footer() {
   }, []);
 
   return (
-    <footer className="py-8 px-6 border-t border-border text-center text-sm text-muted-foreground">
+    <footer className="py-8 px-6 border-t border-border text-center text-sm text-muted-foreground font-mono">
       <p>
-        © {year ?? ""} · {t.footer.madeWith} ❤️ {t.footer.by}
+        <span className="text-accent">©</span> {year ?? ""} ·{" "}
+        {t.footer.madeWith}{" "}
+        <span className="text-red-500 hover:scale-125 inline-block transition-transform">
+          &lt;3
+        </span>{" "}
+        {t.footer.by}
+      </p>
+      <p className="mt-1 text-xs opacity-60">
+        built with next.js · no ai-slop template, just terminal vibes
       </p>
     </footer>
   );
