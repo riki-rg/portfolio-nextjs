@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# 🚀 Rizqy Maulana Hakim — Portfolio
 
-First, run the development server:
+**Website portofolio pribadi berbasis Next.js** dengan dark mode & multi-bahasa (ID/EN)
+
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+
+[![Live Demo](https://img.shields.io/badge/🌐-Live_Demo-blue?style=for-the-badge)](https://riki-rg.github.io)
+[![GitHub](https://img.shields.io/badge/GitHub-riki--rg-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/riki-rg)
+
+</div>
+
+---
+
+## 👋 Tentang Saya
+
+Halo! Saya **Rizqy Maulana Hakim** — biasa dipanggil **Rizz** atau **Mbappe** 👋
+
+Mahasiswa S1 Sistem Informasi di **Universitas Muhammadiyah Kudus (UMKU)** yang antusias mengeksplorasi:
+
+- 🔧 **Full Stack Web Development**
+- 🌐 **Jaringan Komputer**
+- 📊 **Data Analysis**
+
+Perjalanan coding saya dimulai sejak SMP dari bahasa **Pawn** (karena penasaran dengan game SA-MP 😄), dan terus berkembang mempelajari Python, C++, JavaScript, PHP, hingga sekarang eksplorasi Next.js.
+
+## ✨ Fitur Website
+
+| Fitur | Keterangan |
+|-------|-----------|
+| 🌗 **Dark / Light Mode** | Toggle tema dengan penyimpanan `localStorage` + deteksi preferensi sistem |
+| 🌐 **Multi-Bahasa** | Switch Indonesia 🇮🇩 / English 🇬🇧 — semua konten diterjemahkan |
+| 📱 **Responsive** | Layout adaptif dari mobile hingga desktop, dengan hamburger menu |
+| ⚡ **Animasi** | Typing effect roles, progress bar skill saat scroll, hover effects |
+| 🚀 **Static Export** | Prerendered penuh — cepat & SEO friendly |
+| ♿ **Aksesibilitas** | Semantic HTML, aria-label, kontras warna baik |
+
+## 📄 Section
+
+- **Hero** — Perkenalan dengan animasi roles berganti otomatis
+- **About** — Latar belakang & perjalanan ngoding
+- **Skills** — Progress bar animasi (HTML, Python, Pawn, PHP, CSS, JS, dll)
+- **Projects** — 6 proyek nyata dengan link ke repository
+- **Contact** — Email, GitHub, LinkedIn, Instagram
+
+## 🛠️ Tech Stack
+
+![Next.js](https://img.shields.io/badge/-Next.js-black?logo=nextdotjs)
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind-06B6D4?logo=tailwindcss&logoColor=white)
+
+## 🚀 Menjalankan Secara Lokal
 
 ```bash
+# Clone repository
+git clone https://github.com/riki-rg/portfolio-nextjs.git
+cd portfolio-nextjs
+
+# Install dependencies
+npm install
+
+# Jalankan development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka [http://localhost:3000](http://localhost:3000) di browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Build production
+npm run build
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Struktur Proyek
 
-## Learn More
+```
+portfolio-nextjs/
+├── src/
+│   ├── app/
+│   │   ├── globals.css      # Styling & CSS variables (light/dark)
+│   │   ├── layout.tsx       # Root layout + metadata
+│   │   └── page.tsx         # Halaman utama
+│   ├── components/
+│   │   ├── providers.tsx    # Context: theme & language state
+│   │   ├── navbar.tsx       # Navigasi + toggle theme/bahasa
+│   │   ├── hero.tsx         # Hero section + typing animation
+│   │   ├── about.tsx        # Tentang saya
+│   │   ├── skills.tsx       # Skill progress bars
+│   │   ├── projects.tsx     # Grid kartu proyek
+│   │   ├── contact.tsx      # Kartu kontak
+│   │   ├── footer.tsx       # Footer
+│   │   └── use-in-view.tsx  # Hook IntersectionObserver
+│   └── lib/
+│       └── i18n.ts          # Kamus ID/EN + link eksternal
+├── public/
+└── package.json
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🌍 Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Website ini siap deploy ke:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Vercel** (rekomendasi): [vercel.com/new](https://vercel.com/new) → import repo → deploy
+- **Netlify**: build command `npm run build`
+- **GitHub Pages**: dengan static export
+- **VPS / hosting sendiri**: `npm run build && npm start`
 
-## Deploy on Vercel
+## 📞 Kontak
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Platform | Link |
+|----------|------|
+| 📧 Email | [rizqymaulanahakim774@gmail.com](mailto:rizqymaulanahakim774@gmail.com) |
+| 🐙 GitHub | [github.com/riki-rg](https://github.com/riki-rg) |
+| 💼 LinkedIn | [Rizqy Maulana Hakim](https://www.linkedin.com/in/rizqy-maulana-hakim-502a80373) |
+| 📸 Instagram | [@rizqyhakim_](https://www.instagram.com/rizqyhakim_) |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+<div align="center">
+
+**Dibuat dengan ❤️ oleh Rizqy Maulana Hakim**
+
+⭐ Kalau repo ini bermanfaat, kasih star ya!
+
+</div>
