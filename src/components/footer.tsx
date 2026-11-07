@@ -21,9 +21,6 @@ export function Footer() {
         </span>{" "}
         {t.footer.by}
       </p>
-      <p className="mt-1 text-xs opacity-60">
-        built with next.js · no ai-slop template, just terminal vibes
-      </p>
     </footer>
   );
 }
