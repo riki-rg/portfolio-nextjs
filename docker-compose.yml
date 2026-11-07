@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  portfolio-rizz:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: portfolio-rizz
+    restart: unless-stopped
+    networks:
+      - proxy-net
+    # Tidak expose port ke host — hanya lewat nginx proxy
+    # (uncomment baris di bawah kalau mau test langsung)
+    # ports:
+    #   - "3000:3000"
+
+networks:
+  proxy-net:
+    external: true
+    name: nginx-proxy-net  # sesuaikan dengan network container nginx kamu
