@@ -3,9 +3,10 @@ export type Lang = "id" | "en";
 export const LINKS = {
   email: "rizqymaulanahakim774@gmail.com",
   github: "https://github.com/riki-rg",
-  linkedin:
-    "https://www.linkedin.com/in/rizqy-maulana-hakim-502a80373",
+  linkedin: "https://www.linkedin.com/in/rizqy-maulana-hakim-502a80373",
   instagram: "https://www.instagram.com/rizqyhakim_",
+  tiktok: "https://www.tiktok.com/@kwgeugsi",
+  facebook: "https://www.facebook.com/share/179RLd2tZq/",
 };
 
 export const dictionaries = {
@@ -66,6 +67,44 @@ export const dictionaries = {
       ],
       p1: "Saya Rizqy Maulana Hakim, mahasiswa S1 Sistem Informasi di Universitas Muhammadiyah Kudus (UMKU). Minat saya ke pemrograman sudah muncul sejak SMP — bahasa pertama yang saya pelajari adalah Pawn karena tertarik dengan game SA-MP, dan dari situlah perjalanan saya di dunia coding dimulai.",
       p2: "Sejak itu saya terus mempelajari banyak bahasa pemrograman: Python, C++, JavaScript, PHP, dan lainnya. Fokus saya sekarang adalah Full Stack Web Development, jaringan komputer, dan analisis data — kombinasi yang saya percaya bisa menciptakan solusi digital untuk banyak masalah di dunia.",
+    },
+    hobbies: {
+      title: "Hobi & Minat",
+      kicker: "cat /etc/hobbies.conf",
+      items: [
+        {
+          icon: "⌨️",
+          title: "Ngoding",
+          text: "Mengeksplorasi teknologi dan menciptakan solusi digital yang inovatif.",
+        },
+        {
+          icon: "🏋️",
+          title: "Gym & Olahraga",
+          text: "Angkat beban, futsal, dan lari — menjaga bug di tubuh tetap minimal.",
+        },
+        {
+          icon: "📚",
+          title: "Membaca Novel",
+          text: "Tenggelam dalam dunia fiksi untuk menambah wawasan dan imajinasi.",
+        },
+        {
+          icon: "🎮",
+          title: "Gaming",
+          text: "MLBB, COC, HOK, PUBG, Theo Town — debugging pikiran lewat game.",
+        },
+      ],
+    },
+    facts: {
+      title: "Data Diri",
+      kicker: "finger rizky",
+      items: [
+        { key: "TTL", value: "Jepara, 21-08-2007" },
+        { key: "Domisili", value: "Mayong, Jepara" },
+        { key: "Kampus", value: "UMKU — S1 Sistem Informasi" },
+        { key: "SD", value: "SD N 1 Pelemkerep" },
+        { key: "SMP", value: "SMP N 1 Mayong" },
+        { key: "SMA", value: "SMA S Muhammadiyah 2 Mayong" },
+      ],
     },
     skills: {
       title: "Skill & Teknologi",
@@ -208,6 +247,44 @@ export const dictionaries = {
       ],
       p1: "I'm Rizqy Maulana Hakim, an Information Systems undergraduate at Universitas Muhammadiyah Kudus (UMKU). My interest in programming started in junior high — the first language I learned was Pawn because I was curious about the SA-MP game, and that's where my coding journey began.",
       p2: "Since then I've kept learning many languages: Python, C++, JavaScript, PHP, and more. My current focus is Full Stack Web Development, computer networking, and data analysis — a combination I believe can create digital solutions for many real-world problems.",
+    },
+    hobbies: {
+      title: "Hobbies & Interests",
+      kicker: "cat /etc/hobbies.conf",
+      items: [
+        {
+          icon: "⌨️",
+          title: "Coding",
+          text: "Exploring technology and creating innovative digital solutions.",
+        },
+        {
+          icon: "🏋️",
+          title: "Gym & Sports",
+          text: "Weightlifting, futsal, and running — keeping body bugs to a minimum.",
+        },
+        {
+          icon: "📚",
+          title: "Reading Novels",
+          text: "Diving into fiction worlds to expand knowledge and imagination.",
+        },
+        {
+          icon: "🎮",
+          title: "Gaming",
+          text: "MLBB, COC, HOK, PUBG, Theo Town — debugging the mind through games.",
+        },
+      ],
+    },
+    facts: {
+      title: "Personal Info",
+      kicker: "finger rizky",
+      items: [
+        { key: "Born", value: "Jepara, Aug 21 2007" },
+        { key: "Home", value: "Mayong, Jepara" },
+        { key: "Campus", value: "UMKU — Information Systems" },
+        { key: "Elementary", value: "SD N 1 Pelemkerep" },
+        { key: "Junior High", value: "SMP N 1 Mayong" },
+        { key: "Senior High", value: "SMA S Muhammadiyah 2 Mayong" },
+      ],
     },
     skills: {
       title: "Skills & Technologies",
