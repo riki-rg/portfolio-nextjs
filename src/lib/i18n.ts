@@ -21,7 +21,7 @@ export const dictionaries = {
     hero: {
       greeting: "Halo, saya",
       name: "Rizqy Maulana Hakim",
-      nickname: " biasa dipanggil Rizz atau Mbappe 👋",
+      nickname: " biasa dipanggil Rizz atau Mbappe",
       roles: [
         "Mahasiswa Sistem Informasi",
         "Full Stack Enthusiast",
@@ -42,7 +42,7 @@ export const dictionaries = {
         {
           year: "2007",
           title: "Lahir di Jepara",
-          text: "Besar di Mayong, Jepara — kecil tapi penuh semangat.",
+          text: "Besar di Mayong, Jepara. Kota kecil.",
         },
         {
           year: "~2019",
@@ -65,8 +65,8 @@ export const dictionaries = {
           text: "Eksplor Next.js, Laravel, dan backend Go. Percaya teknologi bisa menyelesaikan banyak masalah dunia.",
         },
       ],
-      p1: "Saya Rizqy Maulana Hakim, mahasiswa S1 Sistem Informasi di Universitas Muhammadiyah Kudus (UMKU). Minat saya ke pemrograman sudah muncul sejak SMP — bahasa pertama yang saya pelajari adalah Pawn karena tertarik dengan game SA-MP, dan dari situlah perjalanan saya di dunia coding dimulai.",
-      p2: "Sejak itu saya terus mempelajari banyak bahasa pemrograman: Python, C++, JavaScript, PHP, dan lainnya. Fokus saya sekarang adalah Full Stack Web Development, jaringan komputer, dan analisis data — kombinasi yang saya percaya bisa menciptakan solusi digital untuk banyak masalah di dunia.",
+      p1: "Saya Rizqy Maulana Hakim, mahasiswa S1 Sistem Informasi di Universitas Muhammadiyah Kudus (UMKU). Saya mulai ngoding sejak SMP. Bahasa pertama saya Pawn, karena penasaran sama game SA-MP. Dari situ saya nggak berhenti-belajar.",
+      p2: "Sejak itu saya mempelajari Python, C++, JavaScript, PHP, dan lainnya. Fokus saya sekarang di Full Stack Web Development, jaringan komputer, dan analisis data. Saya percaya kombinasi ketiganya bisa dipakai buat bikin solusi digital yang berguna.",
     },
     hobbies: {
       title: "Hobi & Minat",
@@ -80,7 +80,7 @@ export const dictionaries = {
         {
           icon: "🏋️",
           title: "Gym & Olahraga",
-          text: "Angkat beban, futsal, dan lari — menjaga bug di tubuh tetap minimal.",
+          text: "Angkat beban, futsal, dan lari. Biar sehat.",
         },
         {
           icon: "📚",
@@ -90,7 +90,7 @@ export const dictionaries = {
         {
           icon: "🎮",
           title: "Gaming",
-          text: "MLBB, COC, HOK, PUBG, Theo Town — debugging pikiran lewat game.",
+          text: "MLBB, COC, HOK, PUBG, Theo Town. Buat refreshing.",
         },
       ],
     },
@@ -100,7 +100,7 @@ export const dictionaries = {
       items: [
         { key: "TTL", value: "Jepara, 21-08-2007" },
         { key: "Domisili", value: "Mayong, Jepara" },
-        { key: "Kampus", value: "UMKU — S1 Sistem Informasi" },
+        { key: "Kampus", value: "UMKU, S1 Sistem Informasi" },
         { key: "SD", value: "SD N 1 Pelemkerep" },
         { key: "SMP", value: "SMP N 1 Mayong" },
         { key: "SMA", value: "SMA S Muhammadiyah 2 Mayong" },
@@ -138,7 +138,7 @@ export const dictionaries = {
           title: "PC IPM",
           repo: "pc-ipm-api",
           description:
-            "Website organisasi PC IPM dengan frontend dan API terpisah — mengelola data anggota dan kegiatan organisasi.",
+            "Website organisasi PC IPM dengan frontend dan API terpisah, untuk mengelola data anggota dan kegiatan organisasi.",
           tags: ["PHP", "JavaScript", "REST API"],
           link: "https://github.com/riki-rg/pc-ipm-api",
         },
@@ -201,7 +201,7 @@ export const dictionaries = {
     hero: {
       greeting: "Hello, I'm",
       name: "Rizqy Maulana Hakim",
-      nickname: " — usually called Rizz or Mbappe 👋",
+      nickname: ", usually called Rizz or Mbappe",
       roles: [
         "Information Systems Student",
         "Full Stack Enthusiast",
@@ -222,7 +222,7 @@ export const dictionaries = {
         {
           year: "2007",
           title: "Born in Jepara",
-          text: "Grew up in Mayong, Jepara — small town, big dreams.",
+          text: "Grew up in Mayong, a small town in Jepara.",
         },
         {
           year: "~2019",
@@ -245,8 +245,8 @@ export const dictionaries = {
           text: "Exploring Next.js, Laravel, and Go backend. Believing tech can solve many of the world's problems.",
         },
       ],
-      p1: "I'm Rizqy Maulana Hakim, an Information Systems undergraduate at Universitas Muhammadiyah Kudus (UMKU). My interest in programming started in junior high — the first language I learned was Pawn because I was curious about the SA-MP game, and that's where my coding journey began.",
-      p2: "Since then I've kept learning many languages: Python, C++, JavaScript, PHP, and more. My current focus is Full Stack Web Development, computer networking, and data analysis — a combination I believe can create digital solutions for many real-world problems.",
+      p1: "I'm Rizqy Maulana Hakim, an Information Systems undergraduate at Universitas Muhammadiyah Kudus (UMKU). I started coding in junior high. My first language was Pawn, because I was curious about the SA-MP game. I haven't stopped learning since.",
+      p2: "Since then I've picked up Python, C++, JavaScript, PHP, and more. My current focus is Full Stack Web Development, computer networking, and data analysis. I think the three combined are useful for building things people actually need.",
     },
     hobbies: {
       title: "Hobbies & Interests",
@@ -260,17 +260,17 @@ export const dictionaries = {
         {
           icon: "🏋️",
           title: "Gym & Sports",
-          text: "Weightlifting, futsal, and running — keeping body bugs to a minimum.",
+          text: "Weightlifting, futsal, and running. Just to stay healthy.",
         },
         {
           icon: "📚",
           title: "Reading Novels",
-          text: "Diving into fiction worlds to expand knowledge and imagination.",
+          text: "Reading fiction to widen my view of things.",
         },
         {
           icon: "🎮",
           title: "Gaming",
-          text: "MLBB, COC, HOK, PUBG, Theo Town — debugging the mind through games.",
+          text: "MLBB, COC, HOK, PUBG, Theo Town. For unwinding.",
         },
       ],
     },
@@ -280,7 +280,7 @@ export const dictionaries = {
       items: [
         { key: "Born", value: "Jepara, Aug 21 2007" },
         { key: "Home", value: "Mayong, Jepara" },
-        { key: "Campus", value: "UMKU — Information Systems" },
+        { key: "Campus", value: "UMKU, Information Systems" },
         { key: "Elementary", value: "SD N 1 Pelemkerep" },
         { key: "Junior High", value: "SMP N 1 Mayong" },
         { key: "Senior High", value: "SMA S Muhammadiyah 2 Mayong" },
@@ -318,7 +318,7 @@ export const dictionaries = {
           title: "PC IPM",
           repo: "pc-ipm-api",
           description:
-            "Organization website for PC IPM with separate frontend and API — managing member and organizational activity data.",
+            "Organization website for PC IPM with separate frontend and API, managing member and organizational activity data.",
           tags: ["PHP", "JavaScript", "REST API"],
           link: "https://github.com/riki-rg/pc-ipm-api",
         },
@@ -350,7 +350,7 @@ export const dictionaries = {
           title: "Todo API",
           repo: "todo-api",
           description:
-            "REST API for a todo list application built with Go — a backend exploration project.",
+            "REST API for a todo list application built with Go. A backend exploration project.",
           tags: ["Go", "REST API", "Backend"],
           link: "https://github.com/riki-rg/todo-api",
         },

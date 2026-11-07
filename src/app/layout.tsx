@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Rizqy Maulana Hakim | Portfolio",
   description:
-    "Portfolio of Rizqy Maulana Hakim — student, full stack enthusiast, computer network enthusiast, and data analyst.",
+    "Portfolio of Rizqy Maulana Hakim: student, full stack enthusiast, computer network enthusiast, and data analyst.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
